@@ -10,6 +10,6 @@ export class ProjectService {
   }
 
   getAll(): Observable<ProjectModel[]> {
-    return this._client.get<ProjecModel[]>( 'assets/data/projects.json');
+    return this._client.get<ProjectModel[]>( 'assets/data/projects.json');
   }
 }
