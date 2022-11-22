@@ -1,6 +1,7 @@
 <form [formGroup]="employeeForm">
   <input type="text" formControlName="name" placeholder="Name">
   <input type="number" formControlName="age" placeholder="Age">
+  <input type="number" formControlName="salary" placeholder="Salary">
   <input type="submit" [disabled]="employeeForm.invalid" value="Submit">
 </form>
- Your new employee is {{employeeForm.value.name}}.
+ Your new employee: {{employeeForm.value.name}}, age {{employeeForm.value.age}} with salary {{employeeForm.value.salary}} &#x24; will bee added to the system.
