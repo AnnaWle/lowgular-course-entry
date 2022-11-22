@@ -9,6 +9,8 @@ import {EmployeeServiceModule} from "./services/employee.service-module";
 import {ProjectListComponentModule} from "./ui/project-list/project-list.component-module";
 import {ProjectServiceModule} from "./services/project.service-module";
 import {EmployeeFormComponentModule} from "./ui/employee-form/employee-form.component-module";
+import {UserFormComponentModule} from "./ui/user-form/user-form.component-module";
+
 
 @NgModule({
   declarations: [AppComponent],
@@ -22,6 +24,7 @@ import {EmployeeFormComponentModule} from "./ui/employee-form/employee-form.comp
         ProjectListComponentModule,
         ProjectServiceModule,
         EmployeeFormComponentModule,
+        UserFormComponentModule,
     ],
   providers: [],
   bootstrap: [AppComponent],
